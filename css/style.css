@@ -37,10 +37,15 @@ header {
 }
 
 header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .logo h1 {
@@ -564,14 +569,27 @@ footer p {
 }
 
 @media (max-width: 768px) {
+    .documents {
+        padding: 30px 0;
+    }
+
     .documents-grid {
-        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-top: 20px;
     }
-    
+
+    .main-banner {
+        padding: 40px 0;
+    }
+
     .main-banner h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
-    
+
+    .main-banner p {
+        font-size: 1rem;
+    }
+
     .desktop-ads {
         display: none;
     }
@@ -596,6 +614,30 @@ footer p {
         max-width: 320px;
         right: 5%;
         bottom: 75px;
+    }
+
+    header {
+        padding: 10px 0;
+    }
+
+    .header-content {
+        padding: 0 15px;
+    }
+
+    .logo h1 {
+        font-size: 1.2rem;
+    }
+
+    nav ul {
+        margin: 0;
+    }
+
+    nav li {
+        margin-left: 15px;
+    }
+
+    nav a {
+        font-size: 0.9rem;
     }
 }
 
