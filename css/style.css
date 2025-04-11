@@ -48,6 +48,17 @@ header .container {
     justify-content: space-between;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-img {
+    width: 30px;
+    height: 30px;
+}
+
 .logo h1 {
     margin: 0;
     font-size: 1.5rem;
@@ -624,8 +635,9 @@ footer p {
         padding: 0 15px;
     }
 
-    .logo h1 {
-        font-size: 1.2rem;
+    .logo-img {
+        width: 25px;
+        height: 25px;
     }
 
     nav ul {
