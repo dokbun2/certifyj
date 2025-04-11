@@ -57,6 +57,7 @@ header .container {
 .logo-img {
     width: 30px;
     height: 30px;
+    order: -1;
 }
 
 .logo h1 {
