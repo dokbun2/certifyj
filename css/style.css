@@ -51,18 +51,20 @@ header .container {
 .logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
 }
 
 .logo-img {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     order: -1;
 }
 
 .logo h1 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
 }
 
 .logo a {
@@ -637,8 +639,12 @@ footer p {
     }
 
     .logo-img {
-        width: 25px;
-        height: 25px;
+        width: 18px;
+        height: 18px;
+    }
+
+    .logo h1 {
+        font-size: 1.2rem;
     }
 
     nav ul {
