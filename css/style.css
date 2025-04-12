@@ -615,24 +615,28 @@ footer p {
     }
 
     .main-banner {
-        margin: 60px 20px 10px 20px;
+        margin: 60px 0 10px 0;
         padding: 90px 20px;
-        border-radius: 0px;
+        border-radius: 0;
         background-color: #303f9f;
-        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        box-shadow: none;
         min-height: 200px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 100%;
     }
 
     .main-banner .container {
         padding: 0;
+        width: 100%;
+        max-width: 100%;
     }
 
     .main-banner h2 {
         font-size: 2.5rem;
         margin-bottom: 20px;
+        padding: 0 15px;
     }
 
     .main-banner p {
