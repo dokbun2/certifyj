@@ -112,7 +112,7 @@ nav a.active {
 .main-banner {
     background-color: #303f9f;
     color: white;
-    padding: 70px 0;
+    padding: 90px 0;
     text-align: center;
     margin: 0 auto;
     max-width: 1165px;
@@ -172,7 +172,7 @@ nav a.active {
 
 /* 문서 카드 스타일 */
 .documents {
-    padding: 20px 0 60px;
+    padding: 10px 0 60px;
 }
 
 .documents .container {
@@ -603,7 +603,7 @@ footer p {
 
 @media (max-width: 768px) {
     .documents {
-        padding: 20px 0;
+        padding: 10px 0;
     }
 
     .documents-grid {
@@ -612,7 +612,7 @@ footer p {
     }
 
     .main-banner {
-        margin: 25px 20px 10px 20px;
+        margin: 20px 20px 10px 20px;
         padding: 90px 20px;
         border-radius: 12px;
         background-color: #303f9f;
@@ -837,6 +837,6 @@ footer p {
 @media (min-width: 769px) {
     .main-banner {
         margin: 20px auto;
-        padding: 40px 0;
+        padding: 20px 0;
     }
 } 
