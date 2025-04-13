@@ -56,7 +56,7 @@
                     <div class="document-card-header">해외 취업</div>
                     <h3>한국어교원 자격증</h3>
                     <p>한국어교원 자격증 종류와 취득 방법, 해외 취업 기회에 대한 정보를 제공합니다.</p>
-                    <a href="https://i1.dokbun2.com/entry/%EB%AA%B0%EB%9E%90%EB%8B%A4%EB%A9%B4-%EC%86%90%ED%95%B4-%ED%95%9C%EA%B5%AD%EC%96%B4%EA%B5%90%EC%9B%90-%EC%9E%90%EA%B2%A9%EC%A6%9D%EC%9D%98-%EB%AA%A8%EB%93%A0-%EA%B2%83" class="btn"</a>자세히 보기</a>
+                    <a href="https://i1.dokbun2.com/entry/%EB%AA%B0%EB%9E%90%EB%8B%A4%EB%A9%B4-%EC%86%90%ED%95%B4-%ED%95%9C%EA%B5%AD%EC%96%B4%EA%B5%90%EC%9B%90-%EC%9E%90%EA%B2%A9%EC%A6%9D%EC%9D%98-%EB%AA%A8%EB%93%A0-%EA%B2%83" class="btn">자세히 보기</a>
                 </div>
                 <div class="document-card">
                     <div class="document-card-header">교육 분야</div>
@@ -92,6 +92,13 @@
         </div>
     </section>
 
+    <div class="chatbot-button">
+        <a href="https://2vly7.channel.io/home" target="_blank">
+            <i class="fas fa-comments chatbot-icon"></i>
+            <span class="chatbot-text">자격증 도우미</span>
+        </a>
+    </div>
+
     <footer>
         <div class="container">
             <p>본 사이트는 와이제이평생교육원의 학위 및 자격증 취득에 대한 안내 페이지입니다.</p>
@@ -102,5 +109,47 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <!-- Channel Plugin Scripts -->
+    <script>
+      (function() {
+        var w = window;
+        if (w.ChannelIO) {
+          return (window.console.error || window.console.log || function(){})('ChannelIO script included twice.');
+        }
+        var ch = function() {
+          ch.c(arguments);
+        };
+        ch.q = [];
+        ch.c = function(args) {
+          ch.q.push(args);
+        };
+        w.ChannelIO = ch;
+        function l() {
+          if (w.ChannelIOInitialized) {
+            return;
+          }
+          w.ChannelIOInitialized = true;
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = 'https://cdn.channel.io/plugin/ch-plugin-web.js';
+          s.charset = 'UTF-8';
+          var x = document.getElementsByTagName('script')[0];
+          x.parentNode.insertBefore(s, x);
+        }
+        if (document.readyState === 'complete') {
+          l();
+        } else if (window.attachEvent) {
+          window.attachEvent('onload', l);
+        } else {
+          window.addEventListener('DOMContentLoaded', l, false);
+          window.addEventListener('load', l, false);
+        }
+      })();
+      ChannelIO('boot', {
+        "pluginKey": "2vly7"
+      });
+    </script>
+    <!-- End Channel Plugin -->
 </body>
 </html>
